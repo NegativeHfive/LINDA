@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","sourcesContent":[]}
+{"version":3,"sourceRoot":"","sources":["..\\..\\linda.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;AAGJ;EACI;EACA;;;AAEJ;EACI;EACA;EACA","sourcesContent":["@font-face {\r\n    font-family: Din;\r\n    src: url(/fonts/Gotham-Book.otf);\r\n}\r\n\r\nbody {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n.slider{\r\n    width: 100%;\r\n    height: auto;\r\n    position: relative;\r\n}"]}
