@@ -32,7 +32,7 @@ body{
 }
 
 nav{
-    position: fixed;
+    position: absolute;
     top: -1vh;
     display: flex;
     flex-direction: row;
@@ -146,3 +146,32 @@ ion-icon{
     background-color: pink;
     color: brown;
 }
+
+.nails{
+    position: relative;
+    margin-top: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nails img{
+    width: 100%;
+}
+
+.nail_care,
+.nail_polish,
+.nail_polish2{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 596px) {
+    .nails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
