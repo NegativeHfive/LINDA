@@ -10,6 +10,14 @@
   font-family: Monserrat;
   src: url(/fonts/Montserrat-Bold.otf);
 }
+@font-face {
+  font-family: Droid;
+  src: url(/fonts/DroidSerif-Bold.ttf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(/fonts/Montserrat-Regular.otf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -80,6 +88,71 @@ nav a:hover {
   width: 100%;
   box-shadow: inset 0 0 2px #000000;
   display: block;
+  z-index: 100;
+}
+
+.linda_title {
+  position: relative;
+  margin-top: -50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.linda_title h1 {
+  font-family: Monserrat;
+  font-size: 2.9em;
+  width: 100%;
+}
+
+.linda_title p {
+  font-family: regular;
+}
+
+.linda_title a {
+  font-family: monserrat;
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  background-color: palevioletred;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+.linda_title a:hover {
+  background-color: transparent;
+  border: solid white 2px;
+}
+
+.nails_div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  margin-top: 2%;
+}
+
+.nails_div img {
+  width: 100%;
+}
+
+.nail_clipper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nail_clipper h2 {
+  font-family: Monserrat;
+}
+
+.nail_clipper p {
+  font-family: regular;
 }
 
 @media (max-width: 1000px) {
@@ -98,34 +171,8 @@ nav a:hover {
     margin-top: -60vh;
     font-size: small;
   }
-}
-.linda_title {
-  position: relative;
-  margin-top: -50vh;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  color: whitesmoke;
-}
-
-.linda_title h1 {
-  font-family: Monserrat;
-  font-size: 2.9em;
-  width: 100%;
-}
-
-.linda_title p {
-  font-family: din;
-  font-weight: lighter;
-}
-
-.linda_title a {
-  font-family: monserrat;
-  text-decoration: none;
-  background-color: palevioletred;
-  color: white;
-  width: 20vh;
-  position: relative;
-  margin-left: 40%;
+  .nails_div {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=linda.css.map */
