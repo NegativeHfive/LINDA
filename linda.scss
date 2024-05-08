@@ -168,33 +168,56 @@ nav a:hover{
     font-family: regular;
 }
 
+// linda photos
 
-@media(max-width : 1000px){
-
-    nav a{
-      display: none;
-    }
-    .dropbox{
-      visibility: visible;
-    }
-
-    //make it visible 
-   .dropbox nav a{
-      display: flex;
-      width: 100%;
-   }
-
-   .linda_title{
-      position: relative;
-      margin-top: -60vh;
-      font-size: small;
-   }
-
-   // nail_text
-
-   .nails_div{
-    display: flex;
-    flex-direction: column;
-   }
-
+.linda_photo img{
+    width: 30vw;
 }
+
+.linda_photo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+// media css 
+
+@media (max-width: 1000px) {
+    nav a {
+        display: none;
+    }
+    .dropbox {
+        visibility: visible;
+    }
+    .dropbox nav a {
+        display: flex;
+        width: 100%;
+    }
+    .linda_title {
+        position: relative;
+        margin-top: -60vh;
+        font-size: small;
+    }
+    .nails_div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    //linda_photo_text
+
+    .linda_photo img{
+       width: 100%;
+    }
+
+    .linda_photo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

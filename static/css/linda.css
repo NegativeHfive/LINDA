@@ -155,6 +155,15 @@ nav a:hover {
   font-family: regular;
 }
 
+.linda_photo img {
+  width: 30vw;
+}
+
+.linda_photo {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 1000px) {
   nav a {
     display: none;
@@ -172,6 +181,13 @@ nav a:hover {
     font-size: small;
   }
   .nails_div {
+    display: flex;
+    flex-direction: column;
+  }
+  .linda_photo img {
+    width: 100%;
+  }
+  .linda_photo {
     display: flex;
     flex-direction: column;
   }
