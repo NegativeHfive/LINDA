@@ -220,7 +220,7 @@ nav a:hover {
 }
 
 .animated {
-  animation: TransIn 2s;
+  animation: TransIn 3s;
 }
 
 @media (max-width: 1000px) {

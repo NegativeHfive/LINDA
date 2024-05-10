@@ -13,24 +13,23 @@ Dropbox.addEventListener("click",function(){
 let LindaPhoto = document.querySelector(".linda_photo");
 
 function ShowAnimation(){
-   LindaPhoto.classList.toggle("animated");
+   LindaPhoto.classList.add("animated");
    console.log("Animation Added")
 }
 
 function RemoveAnimation(){
-  LindaPhoto.classList.remove("remove");
+  LindaPhoto.classList.remove("animated");
   console.log("Animation remove")
 }
 
 window.addEventListener("scroll", function(){
    let ScrollPostion = window.scrollY;
-   let TriggerOffset = 100;
+   let TriggerOffset = 200;
 
 
    if(ScrollPostion > TriggerOffset){
-    ShowAnimation()
-   }
-   else{
-    RemoveAnimation()
+     ShowAnimation();
+   }else{
+    RemoveAnimation();
    }
 })
