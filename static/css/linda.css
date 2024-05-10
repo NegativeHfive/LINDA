@@ -29,6 +29,16 @@ body {
   flex-wrap: wrap;
 }
 
+@keyframes TransIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 .background_image {
   background-image: url("/images/babysita.png");
   width: 100%;
@@ -207,6 +217,10 @@ nav a:hover {
   background-color: transparent;
   border: solid white 2px;
   color: black;
+}
+
+.animated {
+  animation: TransIn 2s;
 }
 
 @media (max-width: 1000px) {

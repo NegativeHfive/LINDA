@@ -7,3 +7,30 @@ Dropbox.addEventListener("click",function(){
   console.log("Dropbox clicked");
   console.log(Dropbox_nav)
 });
+
+// animation fade in
+
+let LindaPhoto = document.querySelector(".linda_photo");
+
+function ShowAnimation(){
+   LindaPhoto.classList.toggle("animated");
+   console.log("Animation Added")
+}
+
+function RemoveAnimation(){
+  LindaPhoto.classList.remove("remove");
+  console.log("Animation remove")
+}
+
+window.addEventListener("scroll", function(){
+   let ScrollPostion = window.scrollY;
+   let TriggerOffset = 100;
+
+
+   if(ScrollPostion > TriggerOffset){
+    ShowAnimation()
+   }
+   else{
+    RemoveAnimation()
+   }
+})
