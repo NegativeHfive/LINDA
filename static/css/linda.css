@@ -272,6 +272,68 @@ nav a:hover {
   text-decoration: underline;
 }
 
+#nail_products {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hands_feet {
+  font-family: opensans;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.4156862745);
+}
+
+.hands_feet h2 {
+  font-family: lora;
+  color: #000000;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.items p {
+  margin-top: -2%;
+  font-family: regular;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.4156862745);
+}
+
+.items h2 {
+  font-family: lora;
+  color: #000000;
+}
+
+.paint_pakages {
+  font-family: opensans;
+  color: rgba(0, 0, 0, 0.4156862745);
+}
+
+.paint_pakages h2 {
+  font-family: Lora;
+  color: #000000;
+}
+
+.views {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.views p {
+  margin: 0;
+  font-family: monserrat;
+  text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
   nav a {
     display: none;
@@ -317,5 +379,9 @@ nav a:hover {
   .text {
     margin-top: -15%;
     font-size: x-large;
+  }
+  #nail_products {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=linda.css.map */
