@@ -34,3 +34,38 @@ window.addEventListener("scroll", function(){
    }
 })
 
+//adding animatiion to nail products
+
+let NailProduct= document.querySelector("#nail_products");
+
+window.addEventListener("scroll", function(){
+  let ScrollPostion = window.scrollY;
+  let TriggerOffset = 1500;
+
+
+  if(ScrollPostion > TriggerOffset){
+
+    NailProduct.classList.add("animated");
+    console.log("done");
+  }
+  else{
+    NailProduct.classList.remove("animated");
+  }
+})
+
+function Animation(Selector,TriggerOffset){
+  window.addEventListener("scroll",function(){
+    let ScrollPostion = window.scrollY;
+
+    if(ScrollPostion > TriggerOffset){
+      Selector.classList.add("animated");
+      console.log("Added")
+    }
+    else{
+      Selector.classList.remove("animated")
+    }
+  })
+};
+
+let Booking = document.querySelector(".booking");
+Animation(Booking,2000);
