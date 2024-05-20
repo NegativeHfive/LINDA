@@ -389,6 +389,65 @@ nav a:hover {
   font-size: medium;
 }
 
+.nails_sum {
+  margin-top: 6%;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.nails_sum p {
+  font-family: monserrat;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.4156862745);
+}
+
+.nails_sum h1 {
+  font-family: lora;
+  margin-top: 0.9%;
+}
+
+.photo_collage {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+.photo_collage p {
+  font-family: monserrat;
+  font-size: small;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.4156862745);
+  overflow: hidden;
+}
+
+.photo_collage h2 {
+  font-family: lora;
+}
+
+.photo_collage img {
+  width: 100%;
+  overflow: hidden;
+  transition: filter 1s ease-in-out;
+  filter: brightness(0.4);
+}
+
+.collage_2 img {
+  width: 100%;
+  overflow: hidden;
+  transition: filter 1s ease-in-out;
+  filter: brightness(0.4);
+}
+
+.photo_collage img:hover {
+  filter: brightness(0.8);
+}
+
 @media (max-width: 1000px) {
   nav a {
     display: none;
@@ -446,5 +505,9 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .photo_collage {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=linda.css.map */
