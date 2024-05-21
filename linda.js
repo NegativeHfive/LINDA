@@ -69,3 +69,5 @@ function Animation(Selector,TriggerOffset){
 
 let Booking = document.querySelector(".booking");
 Animation(Booking,2000);
+
+//adding animation to 

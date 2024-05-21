@@ -459,14 +459,14 @@ nav a:hover{
    width: 100%;
    overflow: hidden;
    transition: filter 1s ease-in-out;
-   filter: brightness(0.4);
+   filter: brightness(0.7);
 }
 
 .collage_2 img{
     width: 100%;
     overflow: hidden;
     transition: filter 1s ease-in-out;
-    filter: brightness(0.4);
+    filter: brightness(0.7);
 }
 
 .photo_collage img:hover{
@@ -488,6 +488,7 @@ nav a:hover{
     position: absolute;
     width: 34%;
     margin-left: 10%;
+    z-index: 5;
 }
 
 .hand_treatment_text{
@@ -510,6 +511,36 @@ nav a:hover{
 .HT1 p{
     font-family: din;
     font-style: italic;
+}
+
+.left_animation{
+    animation: left_animation 3s;
+}
+
+.right_animation{
+    animation: right_animation 3s;
+}
+
+@keyframes left_animation{
+    from{
+       opacity: 0;
+       transform: translateX(50px);
+    }
+    to{
+       opacity: 1;
+       transform: translateX(0px);
+    }
+}
+
+@keyframes right_animation{
+    from{
+       opacity: 0;
+       transform: translateX(-50px);
+    }
+    to{
+       opacity: 1;
+       transform: translateX(0px);
+    }
 }
 
 
