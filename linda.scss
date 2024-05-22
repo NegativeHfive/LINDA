@@ -579,6 +579,47 @@ nav a:hover{
 
 
 
+//css for testimonials
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: larger;
+
+}
+
+.testimonials p{
+    font-family: monserrat;
+    color: #0000006a;
+}
+
+.testimonials h1{
+    font-family: lora;
+    font-size: 3em;
+}
+
+.persons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: large;
+    margin-top: 2%;
+    font-family: opensans;
+    text-align: center;
+}
+
+.persons span{
+    font-family: monserrat;
+}
+
+.persons .stars{
+    color: gold;
+}
+
+
 // media css 
 
 @media (max-width: 1000px) {
@@ -689,6 +730,11 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
+   }
+
+   .persons{
+    display: flex;
+    flex-direction: column;
    }
 }
 
