@@ -619,6 +619,26 @@ nav a:hover{
     color: gold;
 }
 
+//css for blog
+.blog{
+    margin-top: 10%;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    width: 100%;
+}
+
+.blog p{
+    font-family: monserrat;
+    color: #0000006a;
+}
+
+.blog h1{
+    font-family: lora;
+    font-size: 3em;
+}
+
 
 // media css 
 
