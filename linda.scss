@@ -544,6 +544,41 @@ nav a:hover{
 }
 
 
+// div for working hours
+.working_hours{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    font-size: large;
+    font-family: opensans;
+}
+
+
+.days span{
+    font-family: monserrat;
+}
+
+.days hr{
+    border-top: 1px dashed black;
+}
+
+.time_schedule .TS{
+  font-family: monserrat;
+  color: #0000006a;
+}
+
+.time_schedule h2{
+    font-family: Lora;
+}
+
+.time_schedule p{
+    color: #0000008a;
+}
+
+
+
 // media css 
 
 @media (max-width: 1000px) {
@@ -646,6 +681,13 @@ nav a:hover{
     padding-top: 0%;
     padding-bottom: 0%;
     margin-left: 0%;
+    text-align: center;
+   }
+
+   //working hours css
+   .working_hours{
+    display: flex;
+    flex-direction: column;
     text-align: center;
    }
 }

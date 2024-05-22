@@ -107,3 +107,10 @@ let HandTreatmentText= document.querySelector(".hand_treatment_text");
 
 LeftAnimation(HandTreatmentImage,3900)
 RightAnimation(HandTreatmentText,3900)
+
+//adding animation to text animation 
+let Days = document.querySelector(".days");
+let WorkingHours = document.querySelector(".time_schedule")
+
+LeftAnimation(Days,4200)
+RightAnimation(WorkingHours,4200)

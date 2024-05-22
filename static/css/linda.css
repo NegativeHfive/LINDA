@@ -513,6 +513,37 @@ nav a:hover {
     transform: translateX(10px);
   }
 }
+.working_hours {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 6%;
+  font-size: large;
+  font-family: opensans;
+}
+
+.days span {
+  font-family: monserrat;
+}
+
+.days hr {
+  border-top: 1px dashed black;
+}
+
+.time_schedule .TS {
+  font-family: monserrat;
+  color: rgba(0, 0, 0, 0.4156862745);
+}
+
+.time_schedule h2 {
+  font-family: Lora;
+}
+
+.time_schedule p {
+  color: rgba(0, 0, 0, 0.5411764706);
+}
+
 @media (max-width: 1000px) {
   nav a {
     display: none;
@@ -597,6 +628,11 @@ nav a:hover {
     padding-top: 0%;
     padding-bottom: 0%;
     margin-left: 0%;
+    text-align: center;
+  }
+  .working_hours {
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 }/*# sourceMappingURL=linda.css.map */
