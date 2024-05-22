@@ -68,6 +68,42 @@ function Animation(Selector,TriggerOffset){
 };
 
 let Booking = document.querySelector(".booking");
-Animation(Booking,2000);
+Animation(Booking,2500);
 
-//adding animation to 
+
+//making a function for left animation 
+function LeftAnimation(Selector,TriggerOffset){
+  window.addEventListener("scroll",function(){
+    let ScrollPostion =window.scrollY;
+
+    if(ScrollPostion > TriggerOffset){
+      Selector.classList.add("left_animation")
+    }
+    else{
+      Selector.classList.remove("left_animated")
+    }
+  })
+}
+
+//making a function for right animation 
+function RightAnimation(Selector,TriggerOffset){
+  window.addEventListener("scroll",function(){
+    let ScrollPostion =window.scrollY;
+
+    if(ScrollPostion > TriggerOffset){
+      Selector.classList.add("right_animation")
+      console.log("banana")
+    }
+    else{
+      Selector.classList.remove("right_animated")
+    }
+  })
+}
+
+
+//adding animation to the hand treatment
+let HandTreatmentImage = document.querySelector(".hand_treatment img");
+let HandTreatmentText= document.querySelector(".hand_treatment_text");
+
+LeftAnimation(HandTreatmentImage,3900)
+RightAnimation(HandTreatmentText,3900)

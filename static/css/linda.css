@@ -500,7 +500,7 @@ nav a:hover {
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(10px);
   }
 }
 @keyframes right_animation {
@@ -510,7 +510,7 @@ nav a:hover {
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(10px);
   }
 }
 @media (max-width: 1000px) {
