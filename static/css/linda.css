@@ -605,6 +605,7 @@ nav a:hover {
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .blog_image img {
@@ -618,6 +619,22 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  flex: 1;
+  margin: 0 50px;
+}
+
+.head {
+  font-family: monserrat;
+  color: rgba(0, 0, 0, 0.4156862745);
+}
+
+.blog_image h2 {
+  font-family: lora;
+  font-size: 2em;
+}
+
+.blog_image p {
+  font-family: opensans;
 }
 
 @media (max-width: 1000px) {
@@ -712,6 +729,10 @@ nav a:hover {
     text-align: center;
   }
   .persons {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog_image {
     display: flex;
     flex-direction: column;
   }

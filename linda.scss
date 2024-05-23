@@ -644,6 +644,7 @@ nav a:hover{
     display:flex ;
     width: 100%;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .blog_image img{
@@ -657,6 +658,22 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex: 1;
+    margin: 0 50px;
+}
+
+.head{
+    font-family: monserrat;
+    color: #0000006a;
+}
+
+.blog_image h2{
+    font-family: lora;
+    font-size: 2em;
+}
+
+.blog_image p{
+    font-family: opensans;
 }
 
 // media css 
@@ -772,6 +789,12 @@ nav a:hover{
    }
 
    .persons{
+    display: flex;
+    flex-direction: column;
+   }
+
+   // blog images
+   .blog_image{
     display: flex;
     flex-direction: column;
    }
