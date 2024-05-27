@@ -676,6 +676,51 @@ nav a:hover{
     font-family: opensans;
 }
 
+//css van background section 3
+.background_image_3{
+    background-image: url(/images/beautiful\ black\ lady\(1\).png);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    background-position: center ;
+    filter: brightness(0.8);
+    margin: 8% auto;
+}
+
+.elegance{
+    font-size: x-large;
+    margin-left: 4%;
+    color: black;
+}
+
+.elegance p{
+    font-size: medium;
+    font-family: monserrat;
+    color: black;
+}
+
+.elegance h1{
+    font-family: lora;
+    font-size: 2em;
+}
+
+.elegance button{
+    padding: 2%;
+    background-color: palevioletred;
+    border: none;
+    color: whitesmoke;
+    font-size: large;
+    font-family: monserrat;
+    transition: background-color 1s ease-in-out , border 1s ease-in-out, color 1s ease-in-out;
+}
+
+.elegance button:hover{
+   background-color: transparent;
+   border: solid 2px white;
+   color: black;
+}
+
 // media css 
 
 @media (max-width: 1000px) {
