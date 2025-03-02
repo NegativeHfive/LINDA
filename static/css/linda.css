@@ -31,6 +31,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  overflow-x: none;
 }
 
 @keyframes TransIn {
@@ -81,8 +82,8 @@ nav a:hover {
 
 .dropbox {
   position: absolute;
-  top: 7vh;
-  left: 60vh;
+  top: 7.5vh;
+  left: 50vh;
   color: white;
   visibility: hidden;
 }
